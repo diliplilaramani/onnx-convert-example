@@ -12,6 +12,9 @@ Install python dependencies in order to run the convert script.
 pip3 install torchvision
 pip3 install onnx
 pip3 install tensorflow
+pip3 install tensorflow-addons
+
+# To avoid "AttributeError: module 'tensorflow' has no attribute 'ceil'" --> Install onnx_tf from source, follow these steps - https://github.com/onnx/onnx-tensorflow#installation
 pip3 install onnx_tf
 ```
 
